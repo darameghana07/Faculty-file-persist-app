@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "Ravi Kumar",
+    "dept": "CSE",
+    "salary": 15000
+  },
+  {
+    "id": 3,
+    "name": "Ravi",
+    "dept": "CSE",
+    "salary": 10000
+  },
+  {
+    "id": 4,
+    "name": "Ravi",
+    "dept": "CSE",
+    "salary": 10000
+  },
+  {
+    "id": 5,
+    "name": "Suresh",
+    "dept": "CIC",
+    "salary": 11000
+  },
+  {
+    "id": 6,
+    "name": "Ravi",
+    "dept": "CSE",
+    "salary": 10000
+  },
+  {
+    "id": 7,
+    "name": "Priya",
+    "dept": "ECE",
+    "salary": 12000
+  }
+]

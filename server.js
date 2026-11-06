@@ -58,6 +58,7 @@ app.post("/api/v1/faculty", (req, res) => {
 });
 
 
+
 // 3. READ A SINGLE FACULTY MEMBER BY ID
 // GET http://localhost:8000/api/v1/faculty/:id
 
@@ -192,12 +193,8 @@ app.delete("/api/v1/faculty/:id", (req, res) => {
 // START SERVER
 // ==============================
 
-const PORT = 8000;
+const PORT = process.env.PORT || 8000;
 
 app.listen(PORT, () => {
-
-    console.log(
-        `Server is running on http://localhost:${PORT}`
-    );
-
+    console.log(`Server is running on port ${PORT}`);
 });
